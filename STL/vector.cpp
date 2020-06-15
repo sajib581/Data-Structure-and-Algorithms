@@ -11,27 +11,12 @@ using namespace std ;
 
 int main()
 {
-    vector <int> vec ;
-    vector <int>::iterator it ;
+    int ar[10] = {2,4,7,8,1} ;
 
-    vec.push_back(100);
-    vec.push_back(10);
-    vec.push_back(120);
-    vec.push_back(105);
-    vec.push_back(20);
-    vec.push_back(90);
+    sort(ar,ar+5) ;
 
-    for(it=vec.begin();it!=vec.end();it++){
-        cout<<*it<<endl ;
-    }
-    cout<<"Reverse"<<endl ;
-
-    //sort(vec.begin(),vec.end(),myFunc) ;
-
-    sort(vec.begin(),vec.begin()+3) ;
-
-    for(it=vec.begin();it!=vec.end();it++){
-        cout<<*it<<endl ;
+    for(int i=0;i<5;i++){
+        cout<<ar[i]<<" " ;
     }
 
     return 0 ;
