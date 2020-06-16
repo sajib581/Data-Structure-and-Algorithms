@@ -20,7 +20,6 @@ int main()
     vec.push_back(120);
     vec.push_back(105);
     vec.push_back(20);
-    vec.push_back(90);
 
     for(it=vec.begin();it!=vec.end();it++){
         cout<<*it<<endl ;
