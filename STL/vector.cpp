@@ -11,12 +11,25 @@ using namespace std ;
 
 int main()
 {
-    int ar[10] = {2,4,7,8,1} ;
+    vector <int> vec ;
+    vector <int>::iterator it ;
 
-    sort(ar,ar+5) ;
+    cout<<"My vector"<<endl ;
+    vec.push_back(100);
+    vec.push_back(10);
+    vec.push_back(120);
+    vec.push_back(105);
+    vec.push_back(20);
+    vec.push_back(90);
 
-    for(int i=0;i<5;i++){
-        cout<<ar[i]<<" " ;
+    for(it=vec.begin();it!=vec.end();it++){
+        cout<<*it<<endl ;
+    }
+
+    sort(vec.begin(),vec.end(),myFunc) ;
+
+    for(it=vec.begin();it!=vec.end();it++){
+        cout<<*it<<endl ;
     }
 
     return 0 ;
