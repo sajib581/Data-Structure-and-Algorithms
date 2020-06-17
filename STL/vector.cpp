@@ -30,6 +30,12 @@ int main()
     for(it=vec.begin();it!=vec.end();it++){
         cout<<*it<<endl ;
     }
+    push_back()
+    find()
+    reverse()
+    clear()
+    sort()
+    erase())
 
     return 0 ;
 
