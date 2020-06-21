@@ -1,6 +1,7 @@
 #include<iostream>
 #include<map>
 #include<iterator>
+#include<utility>
 using namespace std ;
 
 int main()
@@ -18,10 +19,13 @@ int main()
 
     it= m.begin() ;
 
-   cout<<it->first<<endl ;n
+   cout<<it->first<<endl ;
    it++ ;
    cout<<it->first<<endl ;
    cout<<it->second<<endl ;
+
+   m.insert(make_pair("krishna",100000)) ;
+
 
    //now printing all key value pair
 
