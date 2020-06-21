@@ -22,12 +22,9 @@ int main()
 
     p = s.insert(12) ;
 
-
-
     for(it=s.begin();it!=s.end();it++){
         cout<<*it<<endl ;
     }
-
     if(p.second==false){
         cout<<"Can't insert"<<endl ;
     }
