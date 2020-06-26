@@ -23,8 +23,8 @@ void dfsVisit(int x){
     }
     color[x]=black ;
     cout<<"color["<<x<<"] = black"<<endl ;
-
 }
+
 void dfs(){
     //all nodes to 1
     for (int i=0;i<node ;i++){
