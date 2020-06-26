@@ -21,7 +21,6 @@ void dfsVisit(int x){
             }
         }
     }
-
     color[x]=black ;
     cout<<"color["<<x<<"] = black"<<endl ;
 
